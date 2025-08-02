@@ -12,7 +12,7 @@
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
 
 ![yandex cloud](<IMG/Снимок экрана 2025-08-02 в 12.37.59.png>)
-немного отрекдактировал playbook [playbook](infrastructure/site.yml), после запустилось без проблем
+немного отредактировал playbook [playbook](infrastructure/site.yml), после запустилось без проблем
 ![alt text](<IMG/Снимок экрана 2025-08-02 в 11.24.37.png>)
 
 ![alt text](<IMG/Снимок экрана 2025-08-02 в 11.30.53.png>)
@@ -66,6 +66,7 @@ Git - [example_city_Werest](https://github.com/Werest/example-teamcity)
 
 Артефакт появился в nexus:
 ![settings.xml](<IMG/Снимок экрана 2025-08-02 в 11.49.23.png>)
+
 ![artifact_nexus](<IMG/Снимок экрана 2025-08-02 в 11.49.07.png>)
 
 Build configuration GitHub:
@@ -73,7 +74,7 @@ Build configuration GitHub:
 
 ![commit in repo](<IMG/Снимок экрана 2025-08-02 в 12.17.27.png>)
 
-После внесения в ``:
+После внесения в `feature/add_reply`:
 ![feature/add_reply](<IMG/Снимок экрана 2025-08-02 в 12.22.23.png>)
 
 Сразу же не удалось получить положительного результата:
